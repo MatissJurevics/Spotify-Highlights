@@ -1,5 +1,5 @@
 # (WIP) Spotify Podcast Highlights
-![]("./screenshot.png")
+![](./screenshot.png)
 
 ## Roadmap
 - [x] Create Responsive Sidebar
