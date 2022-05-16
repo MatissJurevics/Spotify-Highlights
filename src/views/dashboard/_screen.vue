@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-        <section class="w-full h-screen bg-gray-300">
+        <section class="w-full h-screen bg-gray-100">
 
         </section>
 </template>
