@@ -32,7 +32,7 @@ export default {
         <nav v-if="display" class="bg-purple-700 h-fit w-full p-6 md:hidden" >
         <User name="Matiss Jurevics" />
         <Heading title="Main" />
-        <NavItem title="Test" alert=2 />
+        <NavItem title="Your Podlights" alert=0 />
         <NavItem title="Test 2" alert=0 />
             <ul class="flex flex-col mt-8 mb-4 w-full">
         <button class="py-4 h-16 flex flex-row justify-between items-center px-6 my-2 w-full bg-gray-900 hover:bg-gray-800 transition hover:drop-shadow-lg rounded-3xl text-white font-semibold">Log in with Spotify <img class="h-8" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1000logos.net%2Fwp-content%2Fuploads%2F2017%2F08%2FSpotify-Logo.png&f=1&nofb=1"> </button>

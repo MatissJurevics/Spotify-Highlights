@@ -21,8 +21,8 @@ export default {
     <ul class="w-full">
     <User name="Matiss Jurevics" />
       <Heading title="Main" />
-      <NavItem title="Test" alert="2" />
-      <NavItem title="Test 2" alert="0" />
+      <NavItem title="Your Podlights" alert=0 />
+      <NavItem title="Player Controls" alert="0" />
     </ul>
 
     <ul class="flex flex-col mb-4 w-full">
