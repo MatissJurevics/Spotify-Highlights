@@ -15,7 +15,7 @@ export default {
 
 <template>
   <nav
-    class="transition duration-300 ease-in-out hidden -translate-x-full md:translate-x-0 bg-purple-800 dark:bg-slate-700 text-slate-200 h-screen w-96 md:flex md:flex-col md:justify-between items-center px-2"
+    class="transition duration-300 ease-in-out hidden -translate-x-full md:translate-x-0 bg-purple-800  text-slate-200 h-screen w-96 md:flex md:flex-col md:justify-between items-center px-2 rounded-r-xl drop-shadow shadow-3xl"
   >
 
     <ul class="w-full">
