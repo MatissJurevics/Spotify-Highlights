@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-    <nav class="z-10 transition duration-300 ease-in-out translate-y-0 md:-translate-y-full bg-purple-800  text-slate-200 w-screen h-16 overflow-auto shadow-lg flex flex-col justify-center items-end px-4">
+    <nav class="z-10 transition duration-300 ease-in-out translate-y-0 md:-translate-y-full md:hidden md:shadow-none bg-purple-800  text-slate-200 w-screen h-16 overflow-auto shadow-lg flex flex-col justify-center items-end px-4">
         <button @click="log()" class="p-3 px-5 bg-white/30 hover:bg-white/50 rounded-xl">More</button>
     </nav>
     <Transition name="nav">
