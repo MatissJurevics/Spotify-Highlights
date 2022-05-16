@@ -1,11 +1,11 @@
 <script>
 import Sidebar from "@/components/sidebar/sidebar.vue"
-import Screen from "./_screen.vue"
+import Main from "./main.vue"
 export default {
     name: "dashboard",
     components: {
         Sidebar,
-        Screen
+        Main
     }
 }
 </script>
@@ -13,7 +13,7 @@ export default {
 <template>
     <div class="flex flex-col md:flex-row min-h-screen bg-gray-100 text-gray-800">
         <Sidebar />
-        <Screen />
+        <Screen /> 
     </div>
     
 
