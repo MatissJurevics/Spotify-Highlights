@@ -1,4 +1,5 @@
 # (WIP) Spotify Podcast Highlights
+Note: You can take a look at the app so far at: https://projects.podlights.saetom.xyz
 ![](./screenshot.png)
 
 ## Roadmap
