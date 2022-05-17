@@ -19,10 +19,10 @@ export default {
   >
 
     <ul class="w-full">
-    <User name="Matiss Jurevics" />
+    <User name="John Doe" />
       <Heading title="Main" />
-      <NavItem title="Your Podlights" alert=0 />
-      <NavItem title="Player Controls" alert="0" />
+      <NavItem title="Your Podlights" link="/dashboard" alert=0 />
+      <NavItem title="Player Controls" link="/dashboard/proof" alert="0" />
     </ul>
 
     <ul class="flex flex-col mb-4 w-full">

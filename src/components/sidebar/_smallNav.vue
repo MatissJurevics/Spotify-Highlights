@@ -29,11 +29,11 @@ export default {
         <button @click="log()" class="p-3 px-5 bg-white/30 hover:bg-white/50 rounded-xl">More</button>
     </nav>
     <Transition name="nav">
-        <nav v-if="display" class="bg-purple-700 h-fit w-full p-6 md:hidden" >
+        <nav v-if="display" class="bg-purple-700 h-fit w-full p-6 md:hidden absolute mt-16" >
         <User name="Matiss Jurevics" />
         <Heading title="Main" />
-        <NavItem title="Your Podlights" alert=0 />
-        <NavItem title="Test 2" alert=0 />
+        <NavItem title="Your Podlights" link="/dashboard" alert=0 />
+        <NavItem title="Test 2" alert=0 link="/dashboard/proof" />
             <ul class="flex flex-col mt-8 mb-4 w-full">
         <button class="py-4 h-16 flex flex-row justify-between items-center px-6 my-2 w-full bg-gray-900 hover:bg-gray-800 transition hover:drop-shadow-lg rounded-3xl text-white font-semibold">Log in with Spotify <img class="h-8" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1000logos.net%2Fwp-content%2Fuploads%2F2017%2F08%2FSpotify-Logo.png&f=1&nofb=1"> </button>
         <button class="py-4 h-16 flex flex-row justify-between items-center px-6 my-2 w-full bg-white rounded-3xl transition hover:drop-shadow-lg  text-black font-semibold">Log in with Notion <img class="w-8 h-8" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2019%2F06%2FNotion_App_Logo.png&f=1&nofb=1" alt=""></button>
